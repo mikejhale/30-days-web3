@@ -21,6 +21,10 @@
     "typechain": "^8.1.0"
   },
   "scripts": {
-    "script": "node scripts/run.js"
+    "script": "node scripts/run.js",
+    "deploy": "yarn hardhat run scripts/deploy.js --network mumbai"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
   }
 }
